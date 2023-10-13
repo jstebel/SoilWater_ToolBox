@@ -60,7 +60,7 @@ module pathHypix
 	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		function PATHHYPIX(iSim)	
 			# INPUT NAME OF FILE
-				ProjectName_Hypix = "JULES" # "JULES"; "LYSIMETERS" 
+				ProjectName_Hypix = "HlaVo" # "JULES"; "LYSIMETERS" 
 				
 				# SiteName_Hypix = "Lincoln" # "TAUPO"; "OTOROHANGA"; "WAIHOU"; "WAITOA"; "HAMILTON"; "Lincoln";
 				SiteName_Hypix = sitename.SITENEAME()[iSim]
@@ -130,7 +130,7 @@ module pathHypix
                JulesMetadata   = FileHypix_Input * JulesMetadata
 
 				# HYPIX INPUT DATA ===
-				FileHypix_Input  = Home * "//INPUT//DataHyPix//" * ProjectName_Hypix * "//" * SiteName_Hypix * "//" * SiteName_Hypix * "_"
+				FileHypix_Input  = Home * "/INPUT/DataHyPix/" * ProjectName_Hypix * "/" * SiteName_Hypix * "/" * SiteName_Hypix * "_"
 
                Climate          = FileHypix_Input * option.hyPix.ClimateDataTimestep * "_" * Climate
                Dates            = FileHypix_Input * Dates

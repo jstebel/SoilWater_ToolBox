@@ -100,7 +100,7 @@ module path
 
 		# INPUT
 			# DATA SOIL HYDRO
-			FileDataSoilhydro_Input = Home * "//INPUT//DataSoilHydraulic//" * SiteName_Soilhyro * "//" * SiteName_Soilhyro * "_"
+			FileDataSoilhydro_Input = Home * "/INPUT/DataSoilHydraulic/" * SiteName_Soilhyro * "/" * SiteName_Soilhyro * "_"
 
 			# ID_Select	
 				Id_Select          = FileDataSoilhydro_Input * Id_Select

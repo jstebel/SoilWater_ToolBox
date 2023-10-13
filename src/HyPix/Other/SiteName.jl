@@ -4,7 +4,7 @@ module sitename
 
    function SITENEAME()
 
-      Path = "D:\\Main\\MODELS\\SoilWater-ToolBox2\\src\\INPUT\\DataHyPix\\JULES\\JULES_LinkingData.csv"
+      Path = "INPUT/DataHyPix/LinkingData.csv"
 
    # = Special for JULES ==
       # Read data
